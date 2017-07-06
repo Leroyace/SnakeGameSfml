@@ -7,24 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0B50371B97DDB100785CA4 /* GameOver1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB0B50361B97DDB100785CA4 /* GameOver1.png */; };
 		CB523D761B8D157400A5F063 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB523D751B8D157400A5F063 /* ResourcePath.mm */; };
 		CB523D791B8D157400A5F063 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB523D781B8D157400A5F063 /* main.cpp */; };
-		CB523D7C1B8D157400A5F063 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB523D7B1B8D157400A5F063 /* cute_image.jpg */; };
 		CB523D7E1B8D157400A5F063 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = CB523D7D1B8D157400A5F063 /* nice_music.ogg */; };
 		CB523D801B8D157400A5F063 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB523D7F1B8D157400A5F063 /* sansation.ttf */; };
-		CB523D821B8D157400A5F063 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB523D811B8D157400A5F063 /* icon.png */; };
+		CB8261431BA91686009EF029 /* Apple1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8261411BA91686009EF029 /* Apple1.png */; };
+		CB8261441BA91686009EF029 /* Apple2.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8261421BA91686009EF029 /* Apple2.png */; };
+		CBC6CF8B1BA03539008BFB5A /* body.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC6CF881BA03539008BFB5A /* body.png */; };
+		CBC6CF8C1BA03539008BFB5A /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC6CF891BA03539008BFB5A /* head.png */; };
+		CBC6CF8D1BA03539008BFB5A /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC6CF8A1BA03539008BFB5A /* tail.png */; };
+		CBC6CF911BA128A4008BFB5A /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC6CF901BA128A4008BFB5A /* Apple.png */; };
+		CBC6CF951BA13603008BFB5A /* body1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC6CF921BA13603008BFB5A /* body1.png */; };
+		CBC6CF961BA13603008BFB5A /* head1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC6CF931BA13603008BFB5A /* head1.png */; };
+		CBC6CF971BA13603008BFB5A /* tail1.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC6CF941BA13603008BFB5A /* tail1.png */; };
+		CBE541F61BB2517000DFD20C /* die.wav in Resources */ = {isa = PBXBuildFile; fileRef = CBE541F51BB2517000DFD20C /* die.wav */; };
+		CBE541F81BB2518200DFD20C /* pickup.aiff in Resources */ = {isa = PBXBuildFile; fileRef = CBE541F71BB2518200DFD20C /* pickup.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB523D701B8D157400A5F063 /* a.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB523D741B8D157400A5F063 /* a-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "a-Info.plist"; sourceTree = "<group>"; };
+		CB0B50361B97DDB100785CA4 /* GameOver1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOver1.png; sourceTree = "<group>"; };
+		CB523D701B8D157400A5F063 /* SnakeGameSfml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnakeGameSfml.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB523D741B8D157400A5F063 /* SnakeGameSfml-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnakeGameSfml-Info.plist"; sourceTree = "<group>"; };
 		CB523D751B8D157400A5F063 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		CB523D771B8D157400A5F063 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		CB523D781B8D157400A5F063 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		CB523D7B1B8D157400A5F063 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
 		CB523D7D1B8D157400A5F063 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		CB523D7F1B8D157400A5F063 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		CB523D811B8D157400A5F063 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CB8261411BA91686009EF029 /* Apple1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple1.png; sourceTree = "<group>"; };
+		CB8261421BA91686009EF029 /* Apple2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple2.png; sourceTree = "<group>"; };
+		CB848F8B1BB2BD94008CE562 /* snake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = snake.h; sourceTree = "<group>"; };
+		CBC6CF881BA03539008BFB5A /* body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body.png; sourceTree = "<group>"; };
+		CBC6CF891BA03539008BFB5A /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		CBC6CF8A1BA03539008BFB5A /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		CBC6CF901BA128A4008BFB5A /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
+		CBC6CF921BA13603008BFB5A /* body1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body1.png; sourceTree = "<group>"; };
+		CBC6CF931BA13603008BFB5A /* head1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head1.png; sourceTree = "<group>"; };
+		CBC6CF941BA13603008BFB5A /* tail1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail1.png; sourceTree = "<group>"; };
+		CBE541F51BB2517000DFD20C /* die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = die.wav; sourceTree = "<group>"; };
+		CBE541F71BB2518200DFD20C /* pickup.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = pickup.aiff; sourceTree = "<group>"; };
+		CBE541FB1BB25AA800DFD20C /* snake.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = snake.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +71,7 @@
 		CB523D711B8D157400A5F063 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB523D701B8D157400A5F063 /* a.app */,
+				CB523D701B8D157400A5F063 /* SnakeGameSfml.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				CB523D751B8D157400A5F063 /* ResourcePath.mm */,
+				CB848F8B1BB2BD94008CE562 /* snake.h */,
 				CB523D771B8D157400A5F063 /* ResourcePath.hpp */,
+				CBE541FB1BB25AA800DFD20C /* snake.cpp */,
 				CB523D781B8D157400A5F063 /* main.cpp */,
 				CB523D7A1B8D157400A5F063 /* Resources */,
 				CB523D731B8D157400A5F063 /* Supporting Files */,
@@ -69,7 +93,7 @@
 		CB523D731B8D157400A5F063 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB523D741B8D157400A5F063 /* a-Info.plist */,
+				CB523D741B8D157400A5F063 /* SnakeGameSfml-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -77,10 +101,20 @@
 		CB523D7A1B8D157400A5F063 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CB523D7B1B8D157400A5F063 /* cute_image.jpg */,
 				CB523D7D1B8D157400A5F063 /* nice_music.ogg */,
+				CB0B50361B97DDB100785CA4 /* GameOver1.png */,
 				CB523D7F1B8D157400A5F063 /* sansation.ttf */,
-				CB523D811B8D157400A5F063 /* icon.png */,
+				CBC6CF881BA03539008BFB5A /* body.png */,
+				CBC6CF891BA03539008BFB5A /* head.png */,
+				CBC6CF921BA13603008BFB5A /* body1.png */,
+				CBE541F51BB2517000DFD20C /* die.wav */,
+				CBC6CF931BA13603008BFB5A /* head1.png */,
+				CB8261411BA91686009EF029 /* Apple1.png */,
+				CBE541F71BB2518200DFD20C /* pickup.aiff */,
+				CB8261421BA91686009EF029 /* Apple2.png */,
+				CBC6CF941BA13603008BFB5A /* tail1.png */,
+				CBC6CF901BA128A4008BFB5A /* Apple.png */,
+				CBC6CF8A1BA03539008BFB5A /* tail.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -88,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB523D6F1B8D157400A5F063 /* a */ = {
+		CB523D6F1B8D157400A5F063 /* SnakeGameSfml */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB523D851B8D157400A5F063 /* Build configuration list for PBXNativeTarget "a" */;
+			buildConfigurationList = CB523D851B8D157400A5F063 /* Build configuration list for PBXNativeTarget "SnakeGameSfml" */;
 			buildPhases = (
 				CB523D6B1B8D157400A5F063 /* Sources */,
 				CB523D6C1B8D157400A5F063 /* Frameworks */,
@@ -101,9 +135,9 @@
 			);
 			dependencies = (
 			);
-			name = a;
+			name = SnakeGameSfml;
 			productName = a;
-			productReference = CB523D701B8D157400A5F063 /* a.app */;
+			productReference = CB523D701B8D157400A5F063 /* SnakeGameSfml.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB523D6A1B8D157400A5F063 /* Build configuration list for PBXProject "a" */;
+			buildConfigurationList = CB523D6A1B8D157400A5F063 /* Build configuration list for PBXProject "SnakeGameSfml" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -132,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB523D6F1B8D157400A5F063 /* a */,
+				CB523D6F1B8D157400A5F063 /* SnakeGameSfml */,
 			);
 		};
 /* End PBXProject section */
@@ -142,10 +176,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB523D821B8D157400A5F063 /* icon.png in Resources */,
+				CBE541F61BB2517000DFD20C /* die.wav in Resources */,
+				CBC6CF8C1BA03539008BFB5A /* head.png in Resources */,
+				CB8261441BA91686009EF029 /* Apple2.png in Resources */,
+				CBE541F81BB2518200DFD20C /* pickup.aiff in Resources */,
+				CBC6CF961BA13603008BFB5A /* head1.png in Resources */,
+				CBC6CF8B1BA03539008BFB5A /* body.png in Resources */,
+				CBC6CF971BA13603008BFB5A /* tail1.png in Resources */,
 				CB523D801B8D157400A5F063 /* sansation.ttf in Resources */,
+				CBC6CF951BA13603008BFB5A /* body1.png in Resources */,
+				CBC6CF8D1BA03539008BFB5A /* tail.png in Resources */,
 				CB523D7E1B8D157400A5F063 /* nice_music.ogg in Resources */,
-				CB523D7C1B8D157400A5F063 /* cute_image.jpg in Resources */,
+				CBC6CF911BA128A4008BFB5A /* Apple.png in Resources */,
+				CB8261431BA91686009EF029 /* Apple1.png in Resources */,
+				CB0B50371B97DDB100785CA4 /* GameOver1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,25 +321,25 @@
 		CB523D861B8D157400A5F063 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "a/a-Info.plist";
+				INFOPLIST_FILE = "a/SnakeGameSfml-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SnakeGameSfml;
 			};
 			name = Debug;
 		};
 		CB523D871B8D157400A5F063 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "a/a-Info.plist";
+				INFOPLIST_FILE = "a/SnakeGameSfml-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SnakeGameSfml;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB523D6A1B8D157400A5F063 /* Build configuration list for PBXProject "a" */ = {
+		CB523D6A1B8D157400A5F063 /* Build configuration list for PBXProject "SnakeGameSfml" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB523D831B8D157400A5F063 /* Debug */,
@@ -304,13 +348,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB523D851B8D157400A5F063 /* Build configuration list for PBXNativeTarget "a" */ = {
+		CB523D851B8D157400A5F063 /* Build configuration list for PBXNativeTarget "SnakeGameSfml" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB523D861B8D157400A5F063 /* Debug */,
 				CB523D871B8D157400A5F063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
